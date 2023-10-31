@@ -137,14 +137,95 @@
 //        return typeof inner; 
 // }
 // alert(param()); 
+// 26.	The Age Calculator
+// Forgot how old you are? Calculate it!
+// •	Write a function named calculateAge that:
+// o	takes 2 arguments: birth year, current year.
+// o	calculates the 2 possible ages based on those years.
+// o	outputs the result to the screen like so: "You are either NN or NN"
+// •	Call the function three times with different sets of values.
+// •	Bonus: Figure out how to get the current year in JavaScript instead of passing it in.
+
+// function age() {
+// var year = 2023;
+// var birth = 1997;
+// var result1 = (year - birth);
+// var result2 = (year - birth - 1);
+// document.write("<h1>"+ "The Age Calculator"+"</h1>"+ "<br>"+ "Curent Year:" + " "+year + "<br>" + "Birth year:" + " "+ birth + "<br>"+
+//     "She is either"+ " " + result1+" " +"or"+" "+ result2+" "+ "years old");
+// }
+// document.write(age());
+
+// 27.	The Lifetime Supply Calculator
+// Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+// •	Write a function named calculateSupply that:
+// o	takes 2 arguments: age, amount per day.
+// o	calculates the amount consumed for rest of the life (based on a constant max age).
+// o	outputs the result to the screen like so: "You will need NN to last you until the ripe old age of X"
+// •	Call that function three times, passing in different values each time.
+
+// function calculator() {
+// var snack = prompt("Enter Your favourite Snack");
+// var age = +prompt("Enter Your Current age");
+// var maxAge = +prompt("Enter Your maximun Age");
+// var amount = +prompt("Enter Your  estimated amount per day");
+// var result = (maxAge-age)*amount;
+// document.write("<h1>"+ "The Lifetime Supply Calculator:"+"</h1>" + "<br>" +
+// "Favourite Snack:" + " " + snack + "<br>" + 
+// "Current Age:" + " " + age + "<br>" +
+// "Maximum Age:" + " " + maxAge + "<br>" +
+// "Amount of Snacks per day:" + " " + amount + "<br>" +
+// "You will need"+" " +result+" " +"to last you until the ripe old age of"+ " "+maxAge);
+// }
+// document.write(calculator());
+
+// 28.	The Geometrizer
+// Create 2 functions that calculate properties of a circle, using the definitions here.
+// Create a function called calcCircumference:
+// •	Pass the radius to the function.
+// •	Calculate the circumference based on the radius, and output "The circumference is NN".
+// Create a function called calcArea:
+// •	Pass the radius to the function.
+// •	Calculate the area based on the radius, and output "The area is NN".
+// var r = 12;
+// var pie = 3.142;
+
+// function radius() {
+//     var r = 12;
+//     var pie = 3.142;
+//     return 2*pie*r;
+// }
+// function cal() {
+//     var r = 12;
+//     var pie = 3.142;
+//     return pie*(r*r);
+//     document.write("Radius of a circle is:" + " "+ r + "<br>" + "Circumference of a circle is:" + " "+ radius() + "<br>"+
+//         "The area is"+ " " + cal());
+// }
+// document.write(document.write("Radius of a circle is:" + " "+ r + "<br>" + "Circumference of a circle is:" + " "+ radius() + "<br>"+
+// "The area is"+ " " + cal()))
+
+// 29.	The Temperature Converter
+// It's hot out! Let's make a converter based on the steps here.
+// Create a function called celsiusToFahrenheit:
+// •	Store a celsius temperature into a variable.
+// •	Convert it to fahrenheit and output "NN°C is NN°F".
+// Create a function called fahrenheitToCelsius:
+// •	Now store a fahrenheit temperature into a variable.
+// •	Convert it to celsius and output "NN°F is NN°C."
 
 
-
-
-
-
-
-
+// function converterC() {
+// var userInput1 = +prompt("Enter Temperature in Celsius");
+// var convertIntoF = (userInput1*9)/5+32;
+// document.write(userInput1+ "C" + " " + "is" + convertIntoF +" "+"F");
+// }
+// function converterF() {
+// var userInput1 = +prompt("Enter Temperature in F");
+// var convertIntoF = (userInput1-32)*5/9;
+// document.write(userInput1+ "F" + " " + "is" + convertIntoF +" "+"C");
+// }
+// document.write(converterC());
 
 
 
