@@ -228,10 +228,18 @@
 // document.write(converterC());
 
 
+//  var month = prompt("Enter a month");
+//  var charsInMonth = month.length;
+//  if (charsInMonth > 3) {
+//  monthAbbrev = month.slice(0, 3);
+//  }
 
-
-
-
+//  var str = prompt("Enter some text");
+//  var numChars = str.length;
+//  for (var i = 0; i < numChars; i++) {
+//  if (str.slice(i, i + 2) === " ") {
+//  alert("No double spaces!");
+//  break
 
 
 
